@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CBF2DB81E338A2C008B0E24 /* crunch.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0CBF2DB61E338A2C008B0E24 /* crunch.wav */; };
+		0CBF2DB91E338A2C008B0E24 /* win.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0CBF2DB71E338A2C008B0E24 /* win.wav */; };
 		0CBFCFD71E33008900FCF3FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBFCFD61E33008900FCF3FA /* AppDelegate.swift */; };
 		0CBFCFD91E33008900FCF3FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBFCFD81E33008900FCF3FA /* ViewController.swift */; };
 		0CBFCFDC1E33008900FCF3FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CBFCFDA1E33008900FCF3FA /* Main.storyboard */; };
 		0CBFCFDE1E33008900FCF3FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CBFCFDD1E33008900FCF3FA /* Assets.xcassets */; };
 		0CBFCFE11E33008900FCF3FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CBFCFDF1E33008900FCF3FA /* LaunchScreen.storyboard */; };
+		0CBFCFE91E33010500FCF3FA /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBFCFE81E33010500FCF3FA /* DatePickerViewController.swift */; };
+		0CBFCFEB1E33012600FCF3FA /* SingleComponentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBFCFEA1E33012600FCF3FA /* SingleComponentPickerViewController.swift */; };
+		0CBFCFED1E33013C00FCF3FA /* DoubleComponentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBFCFEC1E33013C00FCF3FA /* DoubleComponentPickerViewController.swift */; };
+		0CBFCFEF1E33016400FCF3FA /* DependentComponentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBFCFEE1E33016400FCF3FA /* DependentComponentPickerViewController.swift */; };
+		0CBFCFF11E33017600FCF3FA /* CustomPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBFCFF01E33017600FCF3FA /* CustomPickerViewController.swift */; };
+		0CBFCFF71E33290E00FCF3FA /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0CBFCFF61E33290E00FCF3FA /* statedictionary.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0CBF2DB61E338A2C008B0E24 /* crunch.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = crunch.wav; sourceTree = "<group>"; };
+		0CBF2DB71E338A2C008B0E24 /* win.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = win.wav; sourceTree = "<group>"; };
 		0CBFCFD31E33008900FCF3FA /* Pickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pickers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CBFCFD61E33008900FCF3FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CBFCFD81E33008900FCF3FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,12 @@
 		0CBFCFDD1E33008900FCF3FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CBFCFE01E33008900FCF3FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CBFCFE21E33008900FCF3FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CBFCFE81E33010500FCF3FA /* DatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		0CBFCFEA1E33012600FCF3FA /* SingleComponentPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleComponentPickerViewController.swift; sourceTree = "<group>"; };
+		0CBFCFEC1E33013C00FCF3FA /* DoubleComponentPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleComponentPickerViewController.swift; sourceTree = "<group>"; };
+		0CBFCFEE1E33016400FCF3FA /* DependentComponentPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DependentComponentPickerViewController.swift; sourceTree = "<group>"; };
+		0CBFCFF01E33017600FCF3FA /* CustomPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPickerViewController.swift; sourceTree = "<group>"; };
+		0CBFCFF61E33290E00FCF3FA /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statedictionary.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +72,17 @@
 			children = (
 				0CBFCFD61E33008900FCF3FA /* AppDelegate.swift */,
 				0CBFCFD81E33008900FCF3FA /* ViewController.swift */,
+				0CBFCFE81E33010500FCF3FA /* DatePickerViewController.swift */,
+				0CBFCFEA1E33012600FCF3FA /* SingleComponentPickerViewController.swift */,
+				0CBFCFEC1E33013C00FCF3FA /* DoubleComponentPickerViewController.swift */,
+				0CBFCFEE1E33016400FCF3FA /* DependentComponentPickerViewController.swift */,
+				0CBFCFF01E33017600FCF3FA /* CustomPickerViewController.swift */,
 				0CBFCFDA1E33008900FCF3FA /* Main.storyboard */,
+				0CBF2DB61E338A2C008B0E24 /* crunch.wav */,
+				0CBF2DB71E338A2C008B0E24 /* win.wav */,
 				0CBFCFDD1E33008900FCF3FA /* Assets.xcassets */,
 				0CBFCFDF1E33008900FCF3FA /* LaunchScreen.storyboard */,
+				0CBFCFF61E33290E00FCF3FA /* statedictionary.plist */,
 				0CBFCFE21E33008900FCF3FA /* Info.plist */,
 			);
 			path = Pickers;
@@ -124,7 +148,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CBF2DB81E338A2C008B0E24 /* crunch.wav in Resources */,
+				0CBFCFF71E33290E00FCF3FA /* statedictionary.plist in Resources */,
 				0CBFCFE11E33008900FCF3FA /* LaunchScreen.storyboard in Resources */,
+				0CBF2DB91E338A2C008B0E24 /* win.wav in Resources */,
 				0CBFCFDE1E33008900FCF3FA /* Assets.xcassets in Resources */,
 				0CBFCFDC1E33008900FCF3FA /* Main.storyboard in Resources */,
 			);
@@ -139,6 +166,11 @@
 			files = (
 				0CBFCFD91E33008900FCF3FA /* ViewController.swift in Sources */,
 				0CBFCFD71E33008900FCF3FA /* AppDelegate.swift in Sources */,
+				0CBFCFEF1E33016400FCF3FA /* DependentComponentPickerViewController.swift in Sources */,
+				0CBFCFED1E33013C00FCF3FA /* DoubleComponentPickerViewController.swift in Sources */,
+				0CBFCFF11E33017600FCF3FA /* CustomPickerViewController.swift in Sources */,
+				0CBFCFEB1E33012600FCF3FA /* SingleComponentPickerViewController.swift in Sources */,
+				0CBFCFE91E33010500FCF3FA /* DatePickerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +293,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = S73U89V5U9;
 				INFOPLIST_FILE = Pickers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -274,6 +307,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = S73U89V5U9;
 				INFOPLIST_FILE = Pickers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -302,6 +336,7 @@
 				0CBFCFE71E33008900FCF3FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
